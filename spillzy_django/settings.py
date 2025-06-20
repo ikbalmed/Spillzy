@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'a-fallback-secret-key-for-deve
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'your-server-ip-address']
+ALLOWED_HOSTS = ["https://spillzyfront.onrender.com"]
 # put your server IP address here
 
 # Application definition
