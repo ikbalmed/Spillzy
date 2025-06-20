@@ -139,7 +139,8 @@ OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 # Add CORS settings
 # Replace CORS_ALLOW_ALL_ORIGINS = True with:
 CORS_ALLOWED_ORIGINS = [
-    "http://127.0.0.1:8080",  # Your Vite dev server
-    "http://localhost:8080"   # Add any other frontend URLs you use
+    "http://127.0.0.1:8080",  # Vite dev server here.
+    "http://localhost:8080",
+    "https://spillzyfront.onrender.com"
 ]
 CORS_ALLOW_CREDENTIALS = True
