@@ -2,6 +2,8 @@
 
 Spillzy is an AI-powered gossip-loving bestie designed to react to news and user prompts in a Gen Z style. It leverages a Django backend for API handling and a React frontend for the user interface. User information and chat history are managed using cookies.
 
+Try Spillzy : https://spillzyfront.onrender.com
+
 ## Project Structure
 
 - `spillzy_django/`: Django backend application.
